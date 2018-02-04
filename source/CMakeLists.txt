@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0)
+project(daemonLearn)
+SET(CMAKE_CXX_FLAGS "-std=c++11")
+SET(SOURCE_FILE daemon.cc daemon.h)
+add_executable(daemonLearn main.cpp ${SOURCE_FILE})
